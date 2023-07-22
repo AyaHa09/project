@@ -1,0 +1,118 @@
+:root {
+    --theme-background-color: #f6f6f6;
+  }
+  
+  body {
+    background: var(--theme-background-color);
+  }
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    text-align: center;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .main-content {
+    padding: 50px;
+  }
+  
+  /* Sections */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #333333;
+  }
+  
+  /* City selection */
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  
+  /* Payment method selection */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Proceed to Checkout button */
+  .proceed-button {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .proceed-btn {
+    background-color: #008CBA;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .proceed-btn:hover {
+    background-color: #0079a1;
+  }
+  

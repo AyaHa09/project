@@ -1,0 +1,352 @@
+.aside-img{
+  width:150px;
+}
+footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  padding: 30px 0;
+  position: relative;
+}
+
+footer div {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+footer img {
+  width: 100px;
+  height: auto;
+}
+
+footer div p {
+  margin: 0;
+}
+
+/* Add the following CSS to make the text appear on the same line */
+footer div p {
+  display: inline-block;
+}
+
+.footer-img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 10px; /* Adjust this value to control the vertical position of the image */
+  left: 50%; /* Position the image at the horizontal center */
+  transform: translateX(-50%); /* Center the image horizontally */
+}
+
+
+
+main {
+  display: flex;
+  justify-content: flex-end; /* This will position everything to the right */
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+aside {
+  width: 25%; /* Adjust the width of the aside as per your requirements */
+  position: relative;
+  background-color: lightgray; 
+  padding: 20px;
+  box-sizing: border-box; 
+  left: 0px;
+}
+
+
+
+*p{
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+aside {
+  display: flex;
+  top: 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: fit-content;
+  background-color: transparent;
+  padding: 5%;
+  margin-top: 2%;
+  float: right;
+}
+
+
+
+aside {
+  display: flex;
+  flex-direction: column-reverse;
+  position: sticky;
+  width: fit-content;
+  background-color: transparent;
+  padding: 5%;
+  margin-top: 2%;
+  float: right;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+
+body {
+  background-color: white;
+  background-size: cover;
+  position: relative;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+header {
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  z-index: 100;
+  border-radius: 4%;
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item a {
+  padding: 8px 12px;
+  font-size: 16px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a.active {
+  font-weight: bold;
+  background-color: transparent;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+section {
+  padding: 5%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  display: block;
+  padding: 3%;
+  margin-top: 3%;
+  width: 50%;
+  right: 0%;
+}
+
+
+
+.shopping-list {
+  cursor: pointer;
+}
+
+.dropdown {
+  cursor: pointer;
+  position: relative;
+}
+
+.dropdown-btn {
+  padding: 8px 12px;
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.form-inline input[type="search"],
+.form-inline button {
+  height: 30px;
+  padding: 5px 30px;
+  font-size: 14px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Your existing CSS styles */
+
+/* Additional styles for the slideshow */
+.mySlides {
+  display: none;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+.mySlides img {
+  width: 100%; /* Set the width of the images to fit the slideshow container */
+  height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+  max-height: 700px;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s; /* Change image every 2 seconds */
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* Styles for devices with a screen width up to 768px (e.g., smartphones) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    /* Add styles suitable for smaller screens here */
+  }
+
+  /* Adjust styles for the header, navigation, and other elements for smaller screens */
+  header {
+    padding: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Hide the dropdown content by default on smaller screens */
+  .dropdown-content {
+    display: none;
+  }
+}
+
+/* Styles for devices with a screen width between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    /* Add styles suitable for medium-sized screens here */
+  }
+}
+
+/* Styles for devices with a screen width greater than 1024px (e.g., desktops) */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+    /* Add styles suitable for larger screens here */
+  }
+}
+
+
+
+/* styles.css */
+:root {
+  --theme-background-color: #f6f6f6;
+  --theme-background-color-collapsed: #fff;
+  --theme-border-color: #f6f6f6;
+  --theme-color: #000;
+  --theme-color-collapsed: #000;
+  --theme-color-collapsed-while-menu-is-open: #000;
+}
+
+body {
+  background: var(--theme-background-color);
+}
+
+.header-topbar {
+  color: var(--theme-color);
+  display: flex;
+  height: 2.5rem;
+  padding: 0 1.5rem;
+  position: relative;
+  width: 100%;
+}
+
+*, :after, :before {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: inherit;
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <link rel="stylesheet" href="payment.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+</head>
+<body>
+  <header>
+    <div class="brand-logo">
+      <h1>Just Hype</h1>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <section class="login-section">
+      <h2>Login or Create an Account</h2>
+      <form>
+        <!-- Add form fields for login or account creation -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <section class="city-section">
+      <h2>Choose a City</h2>
+      <!-- Add city selection options -->
+      <select id="city">
+        <option value="city1">Grand Tunis</option>
+        <option value="city2">Sousse</option>
+        <option value="city3">Monastir</option>
+        <option value="city4">Mahdia</option>
+        <option value="city5">Beja</option>
+        <option value="city6">Gasserine</option>
+        <option value="city3">Jandouba</option>
+        <option value="city3">Kairaouen</option>
+        <option value="city3">Gafsa</option>
+        <option value="city3">Sidi Bouzid</option>
+        <option value="city3">Sfax</option>
+        <option value="city3">Gabes</option>
+        <option value="city3">Mednine</option>
+        <option value="city3">Tataouine</option>
+        <option value="city3">Bizerte</option>
+        <option value="city3">Nabeul</option>
+        <option value="city3">Gbelli</option>
+        <option value="city3">Silyena</option>
+        <option value="city3">El Kef</option>
+
+        <!-- Add more cities as needed -->
+      </select>
+    </section>
+
+    <section class="payment-method-section">
+      <h2>Choose Payment Method</h2>
+      <!-- Add payment method selection options -->
+      <label>
+        <input type="radio" name="paymentMethod" value="creditCard" checked>
+        Carte de Crédits
+      </label>
+      <label>
+        <input type="radio" name="paymentMethod" value="paypal">
+        Chèque
+      </label> 
+      <input type="radio" name="paymentMethod" value="paypal">
+      Espèces
+    </label>
+    </section>
+
+    <div class="proceed-button">
+      <button class="proceed-btn" onclick="proceedToCheckout()">Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <script src="payment.js"></script>
+
+</body>
+</html>

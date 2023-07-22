@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Bag</title>
+  <link rel="stylesheet" href="shopping.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+</head>
+<body>
+  <header>
+    <div class="brand-logo">
+      <h1>Just Hype</h1>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <h2>Your Shopping Bag</h2>
+    <table class="shopping-table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="shoppingItems">
+        <!-- Item rows will be added dynamically using JavaScript -->
+      </tbody>
+    </table>
+    <div class="total">
+      <span>Total:</span>
+      <span id="totalAmount">$0</span>
+    </div>
+    <div class="proceed-button">
+      <button class="proceed-btn" onclick="proceedToPayment()">Proceed to Payment</button>
+    </div>
+  </div>
+  </div>
+
+  <!-- Add any additional sections or elements here -->
+
+  <script src="shopping.js"></script>
+
+</body>
+</html>

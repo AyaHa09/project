@@ -1,0 +1,98 @@
+:root {
+  --theme-background-color: #f6f6f6;
+}
+
+body {
+  background: var(--theme-background-color);
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+  text-align: center;
+}
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+
+
+.main-content {
+  padding: 50px;
+}
+
+.shopping-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.shopping-table th, .shopping-table td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.shopping-table th {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.total {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.delete-btn {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.delete-btn:hover {
+  background-color: #e60000;
+}
+
+
+.proceed-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.proceed-btn {
+  background-color: #008CBA;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.proceed-btn:hover {
+  background-color: #0079a1;
+}
